@@ -1,0 +1,19 @@
+node_modules
+.env
+.prod.env
+.test*
+dist
+task
+.data
+files/*
+rds-combined-ca-bundle.pem
+tmp/*
+
+#Log files
+src/task/data/*
+
+#Hardhat files
+cache
+
+.DS_Store
+*.pem

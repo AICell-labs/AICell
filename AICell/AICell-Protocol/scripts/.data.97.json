@@ -1,0 +1,34 @@
+{
+  "ownerWallet": {
+    "address": "0x2d4e68cAF597d1e980b5e8684164460161f8C29b",
+    "constructorArgs": [],
+    "upgradedAddress": "",
+    "deployed": true,
+    "upgraded": true,
+    "verified": true
+  },
+  "Registry": {
+    "address": "0x126d972695B13574029082CE1586c7C5596C3A4C",
+    "constructorArgs": [
+      "AICell: Positions NFT",
+      "AICell",
+      ""
+    ],
+    "upgradedAddress": "",
+    "deployed": true,
+    "upgraded": true,
+    "verified": false
+  },
+  "Factory": {
+    "address": "0x6eADA8d543Ae8aF4cD146952a1ccB2FAe697EC5F",
+    "constructorArgs": [
+      "${Registry.address}",
+      "${ownerWallet.address}",
+      "1000000000000000"
+    ],
+    "upgradedAddress": "",
+    "deployed": true,
+    "upgraded": true,
+    "verified": false
+  }
+}

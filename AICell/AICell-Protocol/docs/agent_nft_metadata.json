@@ -1,0 +1,12 @@
+{
+    "owner": "nft_owner_account_address",
+    "request-author-url": "third_ai_platform_author_url",
+    "request-platform": "third_platform_name",
+    "request-platform_url": "third_platform_url",
+    "encoded-request-path": "encoded_private_service_path",
+    "request-type": "GET/POST",
+    "request-headers": {"Content-Type": "xxx", "Accept-Encoding": "xxx"},
+    "request-params": {"param-a": "xxx", "param-b": "xxx", "param-c-op": "xxx"},
+    "price": "0.001",
+    "bnb-greenfield-url": "https://testnet.greenfieldscan.com/object/0x0000000000000000000000000000000000000000000000000000000000070391"
+}

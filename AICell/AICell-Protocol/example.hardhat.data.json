@@ -1,0 +1,6 @@
+{
+  "PrivateKey": "YOUR_PRIVATE_KEY",
+  "InfuraApiKey": "YOUR_INFURA_API_KEY",
+  "EtherscanApiKey": "YOUR_ETHERSCAN_API_KEY",
+  "BscscanApiKey": "YOUR_BSCSCAN_API_KEY"
+}

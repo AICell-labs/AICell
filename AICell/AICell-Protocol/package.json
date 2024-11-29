@@ -1,0 +1,55 @@
+{
+  "name": "project-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "wcompile": "waffle .waffle.json",
+    "wflatten": "waffle flatten .waffle.json",
+    "build": "npm run compile",
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy:bsctestnet": "node hardhat.switch.js bsctestnet && npx hardhat run --network bsctestnet scripts/deploy.ts",
+    "verify:bsctestnet": "node hardhat.switch.js bsctestnet && npx hardhat run --network bsctestnet scripts/verify.ts",
+    "setup:bsctestnet": "node hardhat.switch.js bsctestnet && npx hardhat run --network bsctestnet scripts/setup.ts",
+    "deploy:bscmainnet": "node hardhat.switch.js bscmainnet && npx hardhat run --network bscmainnet scripts/deploy.ts",
+    "verify:bscmainnet": "node hardhat.switch.js bscmainnet && npx hardhat run --network bscmainnet scripts/verify.ts",
+    "setup:bscmainnet": "node hardhat.switch.js bscmainnet && npx hardhat run --network bscmainnet scripts/setup.ts"
+  },
+  "author": "tdergouzi",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "4.5.0",
+    "@openzeppelin/contracts-upgradeable": "4.5.0",
+    "@openzeppelin/hardhat-upgrades": "1.22.1",
+    "@typechain/ethers-v5": "^6.0.5",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^14.14.37",
+    "bignumber": "^1.1.0",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.1.0",
+    "fs": "0.0.1-security",
+    "hardhat": "^2.1.2",
+    "hardhat-typechain": "^0.3.5",
+    "mocha-chai-jest-snapshot": "^1.1.3",
+    "shelljs": "^0.8.4",
+    "ts-generator": "^0.1.1",
+    "ts-node": "^10.9.1",
+    "typechain": "^4.0.3",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.32",
+    "path": "^0.12.7",
+    "sleep-ts": "^0.1.1"
+  }
+}

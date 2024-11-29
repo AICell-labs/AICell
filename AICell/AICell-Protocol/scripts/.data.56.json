@@ -1,0 +1,26 @@
+{
+  "ownerWallet": {
+    "address": "0xFc4C562e3271aD997A4330ae73F9af13b877aA8A",
+    "constructorArgs": [],
+    "upgradedAddress": "",
+    "deployed": true,
+    "upgraded": true,
+    "verified": true
+  },
+  "signerWallet": {
+    "address": "0x5720Cc167FeC35A89EF016bA8Aa4eb26Ef1d46A6",
+    "constructorArgs": [],
+    "upgradedAddress": "",
+    "deployed": true,
+    "upgraded": true,
+    "verified": true
+  },
+  "USDT": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "constructorArgs": [],
+    "upgradedAddress": "",
+    "deployed": true,
+    "upgraded": true,
+    "verified": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+	"ownerWallet": {
+		"address": "",
+		"constructorArgs": [],
+		"upgradedAddress": "",
+		"deployed": false,
+		"upgraded": false,
+		"verified": false
+	  },
+	  "Registry": {
+		"address": "",
+		"constructorArgs": [
+		  "",
+		  "",
+		  ""
+		],
+		"upgradedAddress": "",
+		"deployed": false,
+		"upgraded": false,
+		"verified": false
+	  },
+	  "Factory": {
+		"address": "",
+		"constructorArgs": [
+		  "${Registry.address}",
+		  "${ownerWallet.address}",
+		  "1000000000000000"
+		],
+		"upgradedAddress": "",
+		"deployed": false,
+		"upgraded": false,
+		"verified": false
+	  }
+}
